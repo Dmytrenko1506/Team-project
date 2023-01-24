@@ -1,33 +1,9 @@
 .page-menu {
-    background: #F0ECD6;
-}
-.container {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    margin-left: auto;
-    margin-right: auto;
-
-    @media screen  and (min-width: 414px) {
-            width: 414px;
-            
-        }
-    
-        @media screen and (min-width: 1024px) {
-            width: 1024px;
-            padding: 58px 47px 40px 47px;
-        }
-    
-        @media screen and (min-width: 1280px) {
-            width: 1280px;
-        }
+    background: $bg-dark-lemon-color;
+    color: $black-color;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
 
-}
 
 
 .page-menu__title {
@@ -41,4 +17,16 @@ h1, h2, h3, h4, h5, h6 {
     @media screen and (min-width:1024px) {
         margin-bottom: 20px;
     }
+}
+.container-menu {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    @media screen and (min-width:1024px) {
+        padding-top: 58px;
+        padding-bottom: 40px;
+    }
+    @media screen and (min-width:1280px) {
+        padding-top: 58px;
+         padding-bottom: 60px;
+        }
 }
